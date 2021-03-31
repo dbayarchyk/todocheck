@@ -1,0 +1,202 @@
+[
+  {
+    "id": "pages.Index.outdatedHeadline",
+    "defaultMessage": "Устаревшие"
+  },
+  {
+    "id": "pages.Index.todayHeadline",
+    "defaultMessage": "Сегодняшние"
+  },
+  {
+    "id": "pages.Index.tomorrowHeadline",
+    "defaultMessage": "Завтрашние"
+  },
+  {
+    "id": "pages.Index.futureHeadline",
+    "defaultMessage": "Предстоящие"
+  },
+  {
+    "id": "pages.Index.completedHeadline",
+    "defaultMessage": "Выполненные"
+  },
+  {
+    "id": "pages.Index.emptyStateTitle",
+    "defaultMessage": "Вау, так держать!"
+  },
+  {
+    "id": "pages.Index.emptyStateSubtitle",
+    "defaultMessage": "Вы выполнили все задания."
+  },
+  {
+    "id": "pages.Index.emptyStateLink",
+    "defaultMessage": "Добавить новое?"
+  },
+  {
+    "id": "pages.NewTask.backLink",
+    "defaultMessage": "Назад к заданиям"
+  },
+  {
+    "id": "pages.NewTask.headline",
+    "defaultMessage": "Добавить"
+  },
+  {
+    "id": "pages.Settings.backLink",
+    "defaultMessage": "Назад к заданиям"
+  },
+  {
+    "id": "pages.Settings.headline",
+    "defaultMessage": "Настройки"
+  },
+  {
+    "id": "pages.Settings.language",
+    "defaultMessage": "Язык"
+  },
+  {
+    "id": "pages.Task.backLink",
+    "defaultMessage": "Назад к заданиям"
+  },
+  {
+    "id": "pages.Task.headline",
+    "defaultMessage": "Изменить задание"
+  },
+  {
+    "id": "pages.Task.taskNotFound",
+    "defaultMessage": "Задание не найдено."
+  },
+  {
+    "id": "pages.Task.loadingMessage",
+    "defaultMessage": "Загружаю задание..."
+  },
+  {
+    "id": "pages.Task.loadedMessage",
+    "defaultMessage": "Задание {taskTitle} загружено."
+  },
+  {
+    "id": "pages.Task.updatingMessage",
+    "defaultMessage": "Задание обновляется..."
+  },
+  {
+    "id": "pages.Task.updatedMessage",
+    "defaultMessage": "Задание обновлено."
+  },
+  {
+    "id": "components.DatePicker.addDatetime",
+    "defaultMessage": "Добавить дату/время"
+  },
+  {
+    "id": "components.DatePicker.removeDate",
+    "defaultMessage": "Удалить дату"
+  },
+  {
+    "id": "components.DatePicker.time",
+    "defaultMessage": "Время"
+  },
+  {
+    "id": "components.DatePicker.cancel",
+    "defaultMessage": "Отменить"
+  },
+  {
+    "id": "components.DatePicker.save",
+    "defaultMessage": "Сохранить"
+  },
+  {
+    "id": "components.Header.newTask",
+    "defaultMessage": "Добавить"
+  },
+  {
+    "id": "components.Header.settings",
+    "defaultMessage": "Настройки"
+  },
+  {
+    "id": "components.Header.home",
+    "defaultMessage": "Домой"
+  },
+  {
+    "id": "components.PriorityLabel.priorityLow",
+    "defaultMessage": "Низкий"
+  },
+  {
+    "id": "components.PriorityLabel.priorityMedium",
+    "defaultMessage": "Средний"
+  },
+  {
+    "id": "components.PriorityLabel.priorityHigh",
+    "defaultMessage": "Высокий"
+  },
+  {
+    "id": "components.SettingsSignIn.signIn",
+    "defaultMessage": "Войти"
+  },
+  {
+    "id": "components.SettingsSignIn.signOut",
+    "defaultMessage": "Выйти"
+  },
+  {
+    "id": "components.SettingsSignIn.signedInAs",
+    "defaultMessage": "Вы вошли как"
+  },
+  {
+    "id": "components.SettingsThemeColor.legend",
+    "defaultMessage": "Цвет темы"
+  },
+  {
+    "id": "components.SettingsThemeColor.light",
+    "defaultMessage": "Светлая"
+  },
+  {
+    "id": "components.SettingsThemeColor.dark",
+    "defaultMessage": "Темная"
+  },
+  {
+    "id": "components.TaskForm.titleLabel",
+    "defaultMessage": "Название"
+  },
+  {
+    "id": "components.TaskForm.titlePlaceholder",
+    "defaultMessage": "Что нужно сделать?"
+  },
+  {
+    "id": "components.TaskForm.priorityLabel",
+    "defaultMessage": "Приоритет"
+  },
+  {
+    "id": "components.TaskForm.priorityNoneLabel",
+    "defaultMessage": "Нет"
+  },
+  {
+    "id": "components.TaskForm.priorityLowLabel",
+    "defaultMessage": "Низкий"
+  },
+  {
+    "id": "components.TaskForm.priorityMediumLabel",
+    "defaultMessage": "Средний"
+  },
+  {
+    "id": "components.TaskForm.priorityHighLabel",
+    "defaultMessage": "Высокий"
+  },
+  {
+    "id": "components.TaskForm.descriptionLabel",
+    "defaultMessage": "Описание"
+  },
+  {
+    "id": "components.TaskForm.descriptionPlaceholder",
+    "defaultMessage": "Есть что-то добавить? Оставьте это здесь..."
+  },
+  {
+    "id": "components.TaskForm.cancelButtonTitle",
+    "defaultMessage": "Отменить"
+  },
+  {
+    "id": "components.TaskForm.saveButtonTitle",
+    "defaultMessage": "Сохранить"
+  },
+  {
+    "id": "components.TasksPreview.noTasksMessage",
+    "defaultMessage": "Задание пока нет. Пожалуйста, добавьте"
+  },
+  {
+    "id": "components.TasksPreview.newTaskLinkTitle",
+    "defaultMessage": "новое задание"
+  }
+]

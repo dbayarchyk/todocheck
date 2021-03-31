@@ -1,0 +1,20 @@
+FROM node:alpine
+
+WORKDIR project
+
+# Dependencies
+COPY package.json /project/
+COPY package-lock.json /project/
+COPY lerna.json /project/
+COPY packages/design-system /project/packages/design-system/
+COPY applications/todocheck /project/applications/todocheck/
+
+RUN npm install
+RUN cd /project/packages/design-system/ && npm run build
+RUN npx lerna bootstrap
+
+# Copy TODO application
+COPY applications/todocheck /project/applications/todocheck/
+
+# Serve TODO application
+CMD cd /project/applications/todocheck && npm run start

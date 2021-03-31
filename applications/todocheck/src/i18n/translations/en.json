@@ -1,0 +1,202 @@
+[
+  {
+    "id": "pages.Index.outdatedHeadline",
+    "defaultMessage": "Outdated"
+  },
+  {
+    "id": "pages.Index.todayHeadline",
+    "defaultMessage": "Today"
+  },
+  {
+    "id": "pages.Index.tomorrowHeadline",
+    "defaultMessage": "Tomorrow"
+  },
+  {
+    "id": "pages.Index.futureHeadline",
+    "defaultMessage": "Upcoming"
+  },
+  {
+    "id": "pages.Index.completedHeadline",
+    "defaultMessage": "Completed"
+  },
+  {
+    "id": "pages.Index.emptyStateTitle",
+    "defaultMessage": "Wow, well done!"
+  },
+  {
+    "id": "pages.Index.emptyStateSubtitle",
+    "defaultMessage": "You've finished all your tasks."
+  },
+  {
+    "id": "pages.Index.emptyStateLink",
+    "defaultMessage": "Add a new one?"
+  },
+  {
+    "id": "pages.NewTask.backLink",
+    "defaultMessage": "Back to the tasks"
+  },
+  {
+    "id": "pages.NewTask.headline",
+    "defaultMessage": "New Task"
+  },
+  {
+    "id": "pages.Settings.backLink",
+    "defaultMessage": "Back to the tasks"
+  },
+  {
+    "id": "pages.Settings.headline",
+    "defaultMessage": "Settings"
+  },
+  {
+    "id": "pages.Settings.language",
+    "defaultMessage": "Language"
+  },
+  {
+    "id": "pages.Task.backLink",
+    "defaultMessage": "Back to the tasks"
+  },
+  {
+    "id": "pages.Task.headline",
+    "defaultMessage": "Edit task"
+  },
+  {
+    "id": "pages.Task.taskNotFound",
+    "defaultMessage": "The task is not found."
+  },
+  {
+    "id": "pages.Task.loadingMessage",
+    "defaultMessage": "Loading the task..."
+  },
+  {
+    "id": "pages.Task.loadedMessage",
+    "defaultMessage": "Task {taskTitle} has been loaded."
+  },
+  {
+    "id": "pages.Task.updatingMessage",
+    "defaultMessage": "Updating the task..."
+  },
+  {
+    "id": "pages.Task.updatedMessage",
+    "defaultMessage": "The task has been updated."
+  },
+  {
+    "id": "components.DatePicker.addDatetime",
+    "defaultMessage": "Add date/time"
+  },
+  {
+    "id": "components.DatePicker.removeDate",
+    "defaultMessage": "Remove the date"
+  },
+  {
+    "id": "components.DatePicker.time",
+    "defaultMessage": "Time"
+  },
+  {
+    "id": "components.DatePicker.cancel",
+    "defaultMessage": "Cancel"
+  },
+  {
+    "id": "components.DatePicker.save",
+    "defaultMessage": "Save"
+  },
+  {
+    "id": "components.Header.newTask",
+    "defaultMessage": "New Task"
+  },
+  {
+    "id": "components.Header.settings",
+    "defaultMessage": "Settings"
+  },
+  {
+    "id": "components.Header.home",
+    "defaultMessage": "Home"
+  },
+  {
+    "id": "components.PriorityLabel.priorityLow",
+    "defaultMessage": "Low"
+  },
+  {
+    "id": "components.PriorityLabel.priorityMedium",
+    "defaultMessage": "Medium"
+  },
+  {
+    "id": "components.PriorityLabel.priorityHigh",
+    "defaultMessage": "High"
+  },
+  {
+    "id": "components.SettingsSignIn.signIn",
+    "defaultMessage": "Sign In"
+  },
+  {
+    "id": "components.SettingsSignIn.signOut",
+    "defaultMessage": "Sign out"
+  },
+  {
+    "id": "components.SettingsSignIn.signedInAs",
+    "defaultMessage": "Signed in as"
+  },
+  {
+    "id": "components.SettingsThemeColor.legend",
+    "defaultMessage": "Theme Color"
+  },
+  {
+    "id": "components.SettingsThemeColor.light",
+    "defaultMessage": "Light"
+  },
+  {
+    "id": "components.SettingsThemeColor.dark",
+    "defaultMessage": "Dark"
+  },
+  {
+    "id": "components.TaskForm.titleLabel",
+    "defaultMessage": "Title"
+  },
+  {
+    "id": "components.TaskForm.titlePlaceholder",
+    "defaultMessage": "What needs to be done?"
+  },
+  {
+    "id": "components.TaskForm.priorityLabel",
+    "defaultMessage": "Priority"
+  },
+  {
+    "id": "components.TaskForm.priorityNoneLabel",
+    "defaultMessage": "None"
+  },
+  {
+    "id": "components.TaskForm.priorityLowLabel",
+    "defaultMessage": "Low"
+  },
+  {
+    "id": "components.TaskForm.priorityMediumLabel",
+    "defaultMessage": "Medium"
+  },
+  {
+    "id": "components.TaskForm.priorityHighLabel",
+    "defaultMessage": "High"
+  },
+  {
+    "id": "components.TaskForm.descriptionLabel",
+    "defaultMessage": "Description"
+  },
+  {
+    "id": "components.TaskForm.descriptionPlaceholder",
+    "defaultMessage": "Is there anything to add? Leave it here..."
+  },
+  {
+    "id": "components.TaskForm.cancelButtonTitle",
+    "defaultMessage": "Cancel"
+  },
+  {
+    "id": "components.TaskForm.saveButtonTitle",
+    "defaultMessage": "Save"
+  },
+  {
+    "id": "components.TasksPreview.noTasksMessage",
+    "defaultMessage": "There is no tasks yet. Please create"
+  },
+  {
+    "id": "components.TasksPreview.newTaskLinkTitle",
+    "defaultMessage": "a new task"
+  }
+]

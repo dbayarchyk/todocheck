@@ -1,0 +1,60 @@
+{
+  "name": "@dbayarhyk/design-system",
+  "description": "The design-system for all frontend applications.",
+  "version": "0.0.0",
+  "author": "Dzmitry Bayarchyk <dzmitry.bayarchyk@gmail.com>",
+  "private": true,
+  "license": "MIT",
+  "main": "dist/index.js",
+  "dependencies": {
+    "@babel/preset-react": "^7.9.4",
+    "@types/styled-components": "^4.1.15",
+    "polished": "^3.4.1",
+    "react-innertext": "^1.1.5",
+    "styled-components": "^4.2.0",
+    "styled-icons": "^8.1.0",
+    "styled-reset": "^2.0.15"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-typescript": "^7.9.0",
+    "@svgr/webpack": "^5.3.1",
+    "@types/react": "^16.8.18",
+    "@types/react-dom": "^16.8.5",
+    "babel-cli": "^6.26.0",
+    "babel-plugin-inline-react-svg": "^1.1.1",
+    "common-tags": "^1.8.0",
+    "husky": "^2.4.0",
+    "lodash": "^4.17.15",
+    "prettier": "^1.18.2",
+    "rcfile": "^1.0.3",
+    "rimraf": "^2.6.3",
+    "shelljs": "^0.8.3",
+    "tsc": "^1.20150623.0",
+    "tslint": "^5.17.0",
+    "tslint-config-airbnb": "^5.11.1",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.0.1",
+    "typescript": "^3.8.3"
+  },
+  "peerDependencies": {
+    "react": ">=16.9.0",
+    "react-dom": ">=16.9.0"
+  },
+  "scripts": {
+    "prebuild": "npm run generate:icons",
+    "build": "babel src --out-dir dist --extensions '.ts,.tsx' && tsc --emitDeclarationOnly",
+    "postbuild": "npm run copy-static-assets",
+    "copy-static-assets": "node ./scripts/copy-static-assets.js",
+    "generate:icons": "node ./scripts/generate-icons-components.js --svgSource 'src/components/Icons/svg' --componentDestination src/components/Icons",
+    "lint": "tslint 'src/**/*.ts' && tslint 'test/**/*.ts'",
+    "prettier": "prettier --write './src/**/*.{js,jsx,ts,tsx,gql,json,mdx}'"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run prettier --write && npm run lint"
+    }
+  }
+}

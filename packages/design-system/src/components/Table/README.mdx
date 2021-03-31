@@ -1,0 +1,65 @@
+---
+name: Table
+route: /Table
+menu: Components
+---
+
+import { Table } from './';
+
+# Table
+
+## Example
+
+```jsx
+import { Table } from 'itdog-design-system/components/Table';
+
+<Table>
+  <Table.Head>
+    <Table.Row>
+      <Table.Cell align="left">Title</Table.Cell>
+      <Table.Cell align="center">Comments Count</Table.Cell>
+      <Table.Cell align="right">Hashtags Count</Table.Cell>
+    </Table.Row>
+  </Table.Head>
+  <Table.Body>
+    <Table.Row>
+      <Table.Cell align="left">What is React?</Table.Cell>
+      <Table.Cell align="center">50</Table.Cell>
+      <Table.Cell align="right">3</Table.Cell>
+    </Table.Row>
+    <Table.Row>
+      <Table.Cell align="left">What is GraphQL?</Table.Cell>
+      <Table.Cell align="center">100</Table.Cell>
+      <Table.Cell align="right">5</Table.Cell>
+    </Table.Row>
+  </Table.Body>
+</Table>;
+```
+
+<Table>
+  <Table.Head>
+    <Table.Row>
+      <Table.Cell align="left">Title</Table.Cell>
+      <Table.Cell align="center">Comments Count</Table.Cell>
+      <Table.Cell align="right">Hashtags Count</Table.Cell>
+    </Table.Row>
+  </Table.Head>
+  <Table.Body>
+    <Table.Row>
+      <Table.Cell align="left">What is React?</Table.Cell>
+      <Table.Cell align="center">50</Table.Cell>
+      <Table.Cell align="right">3</Table.Cell>
+    </Table.Row>
+    <Table.Row>
+      <Table.Cell align="left">What is GraphQL?</Table.Cell>
+      <Table.Cell align="center">100</Table.Cell>
+      <Table.Cell align="right">5</Table.Cell>
+    </Table.Row>
+  </Table.Body>
+</Table>
+
+## `Table.Cell` Properties
+
+| Props   | Type    | Required | Values                        | Default  |
+| ------- | ------- | :------: | ----------------------------- | -------- |
+| `align` | `oneOf` |    -     | `['left', 'center', 'right']` | `center` |

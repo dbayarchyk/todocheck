@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "target": "es5",
+    "module": "esnext",
+    "sourceMap": true,
+    "strict": true,
+    "preserveConstEnums": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "jsx": "react",
+    "lib": ["dom", "es5", "es6", "es7", "es2017", "esnext.asynciterable"],
+    "allowSyntheticDefaultImports": true,
+    "typeRoots": ["node_modules/@types"],
+    "types": ["react"],
+    "baseUrl": "src",
+    "declaration": true,
+    "outDir": "dist"
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["build", "coverage", "node_modules", "*.test.tsx?"]
+}
